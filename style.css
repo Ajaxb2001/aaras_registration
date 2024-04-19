@@ -26,7 +26,7 @@
   .navbar-title {
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-right: auto; /* Pushes the title to the right */
   }
   .navbar-logo img {
@@ -79,7 +79,7 @@
 
 .form-group {
     margin-bottom: 20px;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label {
@@ -103,7 +103,7 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button[type="submit"]:hover {
