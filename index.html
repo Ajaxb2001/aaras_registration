@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AARA's || Child Information</title>
+    <link rel="icon" type="image/jpeg" href="/public/images/aaras-logo.jpeg" />
+    <!-- Adjust the path to your logo image -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-title">
+        Child Information - To Gauge a child's preferences and dislikes.
+      </div>
+      <div class="navbar-logo">
+        <img src="./images/aaras-logo.jpeg" alt="Logo" />
+      </div>
+    </nav>
+    <div class="content">
+      <div class="container">
+        <div class="form-child"></div>
+        <form action="/register" method="post">
+          <div class="form-group">
+            <label for="childName">1.Name of the Child:</label>
+            <input type="text" id="childName" name="childName" required />
+          </div>
+          <div class="form-group">
+            <label for="childAge">2.Age of the Child:</label>
+            <input type="number" id="childAge" name="childAge" required />
+          </div>
+          <div class="form-group">
+            <label for="childWeight">3.Weight of the Child in kg:</label>
+            <input type="number" id="childWeight" name="childWeight" required />
+          </div>
+          <div class="form-group">
+            <label for="childAllergic">4.Child Allergic to any Food?</label>
+            <input type="text" id="childAllergic" name="childAllergic" />
+          </div>
+          <div class="form-group">
+            <label for="childLikes">5.Any specific food the Child likes?</label>
+            <input type="text" id="childLikes" name="childLikes" />
+          </div>
+          <div class="form-group">
+            <label for="childDislikes">6.Food that Child Dislikes?</label>
+            <input type="text" id="childDislikes" name="childDislikes" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-address">
+          <h4>Address:</h4>
+          <p>HBR Layout,</p>
+          <p>Bangalore, India</p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact:</h4>
+          <p>Phone: 7972898248</p>
+          <p>Email: 2024aaras@gmail.com</p>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us:</h4>
+          <ul class="social-links">
+            <li>
+              <a href="https://youtube.com/@AARAs2024?si=u-xCEVVGgneSVXfB">
+                <span class="icon youtube"></span> YouTube
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/aaras_2024?t=xiUSnlqlgtUOtJcelcYemw&s=08">
+                <span class="icon twitter"></span> Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/aaras_2024?utm_source=qr&igsh=dXJjYmV6dTRhM2w4"
+              >
+                <span class="icon instagram"></span> Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
