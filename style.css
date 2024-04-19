@@ -1,0 +1,196 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #f5f5dc, #ffe4b5); /* Beige gradient colors */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  
+ /* Navigation styles */
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #007bff, #00bfff); /* Gradient colors */
+    color: #fff;
+    padding: 0.5rem; /* Adjust padding as needed */
+  }
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin-right: auto; /* Pushes the title to the right */
+  }
+  .navbar-logo img {
+    max-width: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    
+  }
+
+  /* Content styles */
+  .content {
+    padding: 2rem;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  /* Style the form */
+.form-child {
+  background-color: rgba(249, 249, 249, 0.9); /* Adjust transparency */
+  background-image: url(./images/3113442.jpg);
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the background image */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  height: 130px;
+  margin-bottom: 20px; /* Add margin to create space below */
+}
+
+
+.form-child:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: cursive;
+}
+
+button[type="submit"]:hover {
+    background-color: #2691ef;
+}
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(to right, #333, #666); /* Change the colors as needed */
+    color: #fff;
+    padding: 20px 0;
+}
+
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-address,
+  .footer-contact,
+  .footer-social {
+    text-align: center;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-links li .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 5px;
+  }
+  
+  .social-links li .youtube {
+    background-image: url('./images/icons8-youtube-48.png'); /* Replace 'youtube_logo.png' with the path to your YouTube logo */
+  }
+  
+  .social-links li .twitter {
+    background-image: url('./images/icons8-twitter-96.png'); /* Replace 'twitter_logo.png' with the path to your Twitter logo */
+  }
+  
+  .social-links li .instagram {
+    background-image: url('./images/icons8-instagram-96.png'); /* Replace 'instagram_logo.png' with the path to your Instagram logo */
+  }
+  
+  .footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }

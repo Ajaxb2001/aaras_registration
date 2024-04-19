@@ -1,0 +1,50 @@
+/* Add the green background color to the whole page */
+body.success {
+    background-color: rgb(100, 255, 100);
+  }
+  
+  /* Add a class for the celebration animation */
+  .celebration-container {
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    align-items: center;
+    animation: celebration-animation 1.5s ease-in-out forwards;
+    margin-top: 20px; /* Adjust this value as needed */
+
+  }
+  
+  .celebration-card {
+    background-color: #57d730;
+    color: #2b2b2b;
+    border-radius: 5px;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    animation: slide-up 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes celebration-animation {
+    0% {
+      transform: scale(0.5);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
